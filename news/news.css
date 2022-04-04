@@ -164,40 +164,33 @@ a {
 
 
 /* CSS MEDIA QUERIES */
-@media only screen and (max-width: 600px) {
-    body {
+@media only screen and (max-width: 568px) {
+    .container-outer {
+        width: 80%;
+        margin: auto;
+    }
+    .row {
         overflow-x: hidden;
     }
-    .single-layout__left, .single-layout__right {
+    .nav-wrapper {
+        width: 400px;
+    }
+    .single-layout__left, .single-layout__right, .button-hover__more-news, .col-3 {
+        display:none;
+    }
+    .main-titles__header {
         display: none;
+    } 
+    .col-6 {
+        width: 400px;
     }
-
-    .col-6, .single-layout__center {
-        width: 100%;
+    .footer {
+        width: 400px;
     }
-
-    .button-hover__more-news {
-        display: none;
+    .more {
+        width: 400px;
     }
-        
-}
-
-@media only screen and (max-width: 992px) {
-    body {
-        overflow-x: hidden;
-    }
-    .single-layout__left, .single-layout__right {
-        display: none;
-    }
-
-    .col-6, .single-layout__center {
-        width: 100%;
-    }
-
-    .button-hover__more-news {
-        display: none;
-    }
-    h1 {
-        font-size: 2rem;
+    .read-themes {
+        width: 340px;
     }
 }
