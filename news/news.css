@@ -4,6 +4,7 @@
 }
 body {
     box-sizing:border-box;
+    overflow-x: hidden;
 }
 
 .wrapper {
@@ -165,8 +166,8 @@ a {
 
 /* CSS MEDIA QUERIES */
 @media only screen and (max-width: 568px) {
-    .container-outer {
-        width: 80%;
+    .container {
+        width: 90%;
         margin: auto;
     }
     .row {
@@ -193,4 +194,7 @@ a {
     .read-themes {
         width: 340px;
     }
+}
+@media only screen and (max-width: 991px) {
+    
 }
